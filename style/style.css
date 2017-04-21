@@ -115,13 +115,19 @@ footer {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   border: 10px solid grey;
-  padding: 16%;
+  padding: 6.5%;
   width: 100%;
 }
 
 hr {
-  color: rgb(95,95,95);
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid #959595;
+    margin: 1em 0;
+    padding: 0; 
 }
+
 
 .footer-banner {
   background-color: black;
